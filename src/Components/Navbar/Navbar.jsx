@@ -16,7 +16,7 @@ function Navbar() {
       </div>
 
       <ul className="nav-menu">
-        <li onClick={() => {setMenu('shop')}}> <Link style={{textDecoration:'none'}} to='/ShopperReact'>Shop</Link>{menu === 'shop' ? <hr /> : <></>}</li>
+        <li onClick={() => {setMenu('shop')}}> <Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu === 'shop' ? <hr /> : <></>}</li>
         <li onClick={() => {setMenu('mens')}}><Link style={{textDecoration:'none'}} to='/mens'>Mens</Link>{menu === 'mens' ? <hr /> : <></>}</li>
         <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration:'none'}} to='/womens'>Womens</Link>{menu === 'womens' ? <hr /> : <></>}</li>
         <li onClick={() => {setMenu('kids')}}><Link style={{textDecoration:'none'}} to='/kids'>Kids</Link>{menu === 'kids' ? <hr /> : <></>}</li>
